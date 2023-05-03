@@ -1,0 +1,25 @@
+---
+name: Bug report
+about: Create a report to help us improve
+title: '[BUG] <title>'
+labels: '[Bug, Needs Triage]'
+assignees: ''
+
+---
+body:
+  - type: input
+    id: call_sign
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
