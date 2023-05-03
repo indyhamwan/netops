@@ -11,6 +11,14 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
+    id: call_sign
+    attributes:
+      label: Call Sign
+      description: How can we get in touch with you if we need more info?
+      placeholder: KC9OUI
+    validations:
+      required: false
+  - type: input
     id: contact
     attributes:
       label: Contact Details
